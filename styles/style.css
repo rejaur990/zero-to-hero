@@ -1,20 +1,84 @@
 
 
+
+
+
+
+
+
+
+
+
+
+.current-head{
+  width: 852px;
+  height: 115px;
+  text-align: center;
+  margin: 0 auto;
+}
+.card-container{
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 30px;
+}
+
+.card{
+  width: 364px;
+  height: 300px;
+  border-radius: 16px;
+  background-color: #EBEBEB;
+  padding: 20px;
+}
+
+.my-text{
+  width: 946px;
+  height: 113px;
+  margin-top: 30px;
+  margin: 20px auto;
+  text-align: center;
+}
+.my-text-container{
+  display: flex;
+  height: 219px;
+  width: 1140px;
+  border: 2px solid blue;
+  align-items: center;
+  padding: 10px;
+  margin: 10px auto;
+  border-radius: 16px;
+}
+.node-img{
+  width: 143px;
+  height: 88px;
+}
+.node-js{
+  height: 141px;
+  width: 940px;
+  margin-left: 20px;
+}
+
+/* react node mongo end */
 .azeret-mono {
   font-family: "Azeret Mono", monospace;
   font-optical-sizing: auto;
   
   font-style: normal;
 }
-
+/* shared style */
+.text-center{
+  text-align: center;
+  color: #FFFFFF;
+}
 
 
 /* nav styles */
 nav{
     display: flex;
     align-items: center;
+    /* justify-content: space-between; */
+    margin: 0 100px;
     justify-content: space-between;
-    
+  
 
 }
 
@@ -34,4 +98,84 @@ nav{
   border: 1px solid #0D1321;
   
 
+}
+
+
+
+.banner-body{
+  width: 1050px;
+  height: 585px;
+ 
+  justify-content:center;
+  margin: 0 auto;
+}
+
+.banner{
+  width: 1440px;
+  height: 650px;
+  background-image: url(../images/Hero-bg.png);
+  background-position:top right;
+  
+}
+.banner-image{
+  display: block;
+  width: 240px;
+  height: 240px;
+  
+  margin: 0 auto;
+  
+}
+.banner-greetings{
+  text-align: center;
+  font-size: 45px;
+}
+
+/* I need Support styles */
+.support{
+  width: 1140px;
+  height: 315px;
+  background-image: url(/images/handshake.jpg);
+  justify-content: center;
+  background-position: center;
+  padding: 100px;
+}
+
+.support-box{
+  max-width: 1040px;
+  height: 186px;
+
+}
+.support-text{
+  height: 57px;
+  width: 548px;
+  border-radius: 8px;
+  border: none;
+}
+
+.feedback-submit-div{
+width: 685px;
+height: 60px;
+margin: 0 auto;
+}
+.support-submit-btn{
+  width: 120px;
+  height: 58px;
+  border-radius: 8px;
+  border: none;
+}
+
+
+/* footer styles */
+footer{
+  margin: 80px 150px 13px 15opx;
+}
+
+.footer-div{
+  height: 100px;
+  max-width: 1440px;
+  background-color: #FFFFFF;
+  display: flex;
+  justify-content: space-between;
+  padding: 30px;
+  align-items: center;
 }
