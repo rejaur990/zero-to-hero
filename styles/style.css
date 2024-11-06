@@ -7,7 +7,9 @@
 
 
 
-
+contact-btn{
+  background-color: black;
+}
 
 
 .current-head{
@@ -101,7 +103,6 @@ nav{
 }
 
 
-
 .banner-body{
   width: 1050px;
   height: 585px;
@@ -130,6 +131,54 @@ nav{
   font-size: 45px;
 }
 
+
+
+.why-web-body{
+  width: 1140px;
+  
+  background-color: brown;
+  padding: 80px 97px;
+  border-radius: 16px;
+  
+  
+  }
+  .why-web{
+      width:852px ;
+      height: 115px;
+      margin: 0 auto;
+      text-align: center;
+  }
+  
+  .layer-btn{
+      height: 40px;
+      width: 130px;
+      border: none;
+      padding: 12px 20px;
+     
+  }
+  
+  .layer1{
+      display: flex;
+      height: 340px;
+      width: 946px;
+      gap: 118px;
+      align-items: center;
+     margin: 0 auto;
+     background-color: cadetblue;
+     padding: 48px;
+     border-radius: 16px;
+     margin-bottom: 32px;
+  }
+  
+  .layer1-body{
+      height: 220px;
+      width: 477px;
+  }
+  .layer1-image{
+      width: 275px;
+      height: 240px;
+  }
+
 /* I need Support styles */
 .support{
   width: 1140px;
@@ -139,6 +188,16 @@ nav{
   background-position: center;
   padding: 100px;
   border-radius: 10px;
+  
+}
+.contact-btn{
+  background-color: black;
+  color: white;
+  width: 243px;
+  height: 66px;
+  border-radius: 9px;
+  margin: 0 auto;
+  display: block;
   
 }
 
@@ -202,7 +261,4 @@ footer{
 }
 .guideline{
   border-radius: 10px;
-  
-  
-
-}
+  }
