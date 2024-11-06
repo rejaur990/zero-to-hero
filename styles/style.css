@@ -183,7 +183,7 @@ nav{
 .support{
   width: 1140px;
   height: 315px;
-  background-image: url(/images/handshake.jpg);
+  background-image: url(../images/handshake.jpg);
   justify-content: center;
   background-position: center;
   padding: 100px;
