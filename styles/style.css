@@ -138,6 +138,8 @@ nav{
   justify-content: center;
   background-position: center;
   padding: 100px;
+  border-radius: 10px;
+  
 }
 
 .support-box{
@@ -178,4 +180,29 @@ footer{
   justify-content: space-between;
   padding: 30px;
   align-items: center;
+}
+
+
+
+
+.inspiration-title{
+  width: 852px;
+  height: 115px;
+  text-align: center;
+  margin: 0 auto;
+  margin-bottom: 48px;
+}
+.inspire-video{
+  max-width: 1075px;
+  height: 550px;
+ border: 1px solid red;
+ border-radius: 16px;
+  margin: 0 auto;
+  padding: 30px;
+}
+.guideline{
+  border-radius: 10px;
+  
+  
+
 }
